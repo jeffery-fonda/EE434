@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "10:33:17 02/05/2018 "
+* "netlist" "pass_nfet.sp "
+* "runtitle" "* the first line is always a comment line."
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ n1 = 6.720e-02       
++ n2 = 1.000e-00       
++ na = 0.000e+00       
++ nvdd = 1.000e+00       
++ vdd = 4.343e-02       
+***   END: Saved Operating Point ***                     

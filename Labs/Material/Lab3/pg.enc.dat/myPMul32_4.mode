@@ -1,0 +1,4 @@
+catch { setAnalysisMode -analysisType single }
+setExtractRCMode  -engine preRoute
+catch { setDelayCalMode -engine aae }
+catch { setIlmMode -highFanoutPort true -loopBack false -keepFlatten false -mergeModel true }

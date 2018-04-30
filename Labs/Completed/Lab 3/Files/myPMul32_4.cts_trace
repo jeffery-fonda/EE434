@@ -1,0 +1,439 @@
+
+
+
+
+
+Tracing Clock g_inClk
+
+****** Clock Tree (g_inClk) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 384
+Nr.          Rising  Sync Pins : 384
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+Nr. Unsync Pins                : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFF_X1 (CK)                             355
+DFF_X2 (CK)                             29
+-----------------------------------------------
+
+
+
+
+** Unsync Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (g_inClk) Cell: (EMPTY) Net: (g_inClk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Unsync Pins            : 0
+          Nr. of Total Sync Pins        : 384
+          Nr. of     Rising  Sync Pins  : 384
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock g_inClk
+*DEPTH 0: g_inClk
+ (Sync)reg_ini_3_reg[31]/CK
+ (Sync)reg_ini_3_reg[30]/CK
+ (Sync)reg_ini_3_reg[29]/CK
+ (Sync)reg_ini_3_reg[28]/CK
+ (Sync)reg_ini_3_reg[27]/CK
+ (Sync)reg_ini_3_reg[26]/CK
+ (Sync)reg_ini_3_reg[25]/CK
+ (Sync)reg_ini_3_reg[24]/CK
+ (Sync)reg_ini_3_reg[23]/CK
+ (Sync)reg_ini_3_reg[22]/CK
+ (Sync)reg_ini_3_reg[21]/CK
+ (Sync)reg_ini_3_reg[20]/CK
+ (Sync)reg_ini_3_reg[19]/CK
+ (Sync)reg_ini_3_reg[18]/CK
+ (Sync)reg_ini_3_reg[17]/CK
+ (Sync)reg_ini_3_reg[16]/CK
+ (Sync)reg_ini_3_reg[15]/CK
+ (Sync)reg_ini_3_reg[14]/CK
+ (Sync)reg_ini_3_reg[13]/CK
+ (Sync)reg_ini_3_reg[12]/CK
+ (Sync)reg_ini_3_reg[11]/CK
+ (Sync)reg_ini_3_reg[10]/CK
+ (Sync)reg_ini_3_reg[9]/CK
+ (Sync)reg_ini_3_reg[8]/CK
+ (Sync)reg_ini_3_reg[7]/CK
+ (Sync)reg_ini_3_reg[6]/CK
+ (Sync)reg_ini_3_reg[5]/CK
+ (Sync)reg_ini_3_reg[4]/CK
+ (Sync)reg_ini_3_reg[3]/CK
+ (Sync)reg_ini_3_reg[2]/CK
+ (Sync)reg_ini_3_reg[1]/CK
+ (Sync)reg_ini_3_reg[0]/CK
+ (Sync)reg_ini_2_reg[31]/CK
+ (Sync)reg_ini_2_reg[30]/CK
+ (Sync)reg_ini_2_reg[29]/CK
+ (Sync)reg_ini_2_reg[28]/CK
+ (Sync)reg_ini_2_reg[27]/CK
+ (Sync)reg_ini_2_reg[26]/CK
+ (Sync)reg_ini_2_reg[25]/CK
+ (Sync)reg_ini_2_reg[24]/CK
+ (Sync)reg_ini_2_reg[23]/CK
+ (Sync)reg_ini_2_reg[22]/CK
+ (Sync)reg_ini_2_reg[21]/CK
+ (Sync)reg_ini_2_reg[20]/CK
+ (Sync)reg_ini_2_reg[19]/CK
+ (Sync)reg_ini_2_reg[18]/CK
+ (Sync)reg_ini_2_reg[17]/CK
+ (Sync)reg_ini_2_reg[16]/CK
+ (Sync)reg_ini_2_reg[15]/CK
+ (Sync)reg_ini_2_reg[14]/CK
+ (Sync)reg_ini_2_reg[13]/CK
+ (Sync)reg_ini_2_reg[12]/CK
+ (Sync)reg_ini_2_reg[11]/CK
+ (Sync)reg_ini_2_reg[10]/CK
+ (Sync)reg_ini_2_reg[9]/CK
+ (Sync)reg_ini_2_reg[8]/CK
+ (Sync)reg_ini_2_reg[7]/CK
+ (Sync)reg_ini_2_reg[6]/CK
+ (Sync)reg_ini_2_reg[5]/CK
+ (Sync)reg_ini_2_reg[4]/CK
+ (Sync)reg_ini_2_reg[3]/CK
+ (Sync)reg_ini_2_reg[2]/CK
+ (Sync)reg_ini_2_reg[1]/CK
+ (Sync)reg_ini_2_reg[0]/CK
+ (Sync)reg_ini_1_reg[31]/CK
+ (Sync)reg_ini_1_reg[30]/CK
+ (Sync)reg_ini_1_reg[29]/CK
+ (Sync)reg_ini_1_reg[28]/CK
+ (Sync)reg_ini_1_reg[27]/CK
+ (Sync)reg_ini_1_reg[26]/CK
+ (Sync)reg_ini_1_reg[25]/CK
+ (Sync)reg_ini_1_reg[24]/CK
+ (Sync)reg_ini_1_reg[23]/CK
+ (Sync)reg_ini_1_reg[22]/CK
+ (Sync)reg_ini_1_reg[21]/CK
+ (Sync)reg_ini_1_reg[20]/CK
+ (Sync)reg_ini_1_reg[19]/CK
+ (Sync)reg_ini_1_reg[18]/CK
+ (Sync)reg_ini_1_reg[17]/CK
+ (Sync)reg_ini_1_reg[16]/CK
+ (Sync)reg_ini_1_reg[15]/CK
+ (Sync)reg_ini_1_reg[14]/CK
+ (Sync)reg_ini_1_reg[13]/CK
+ (Sync)reg_ini_1_reg[12]/CK
+ (Sync)reg_ini_1_reg[11]/CK
+ (Sync)reg_ini_1_reg[10]/CK
+ (Sync)reg_ini_1_reg[9]/CK
+ (Sync)reg_ini_1_reg[8]/CK
+ (Sync)reg_ini_1_reg[7]/CK
+ (Sync)reg_ini_1_reg[6]/CK
+ (Sync)reg_ini_1_reg[5]/CK
+ (Sync)reg_ini_1_reg[4]/CK
+ (Sync)reg_ini_1_reg[3]/CK
+ (Sync)reg_ini_1_reg[2]/CK
+ (Sync)reg_ini_1_reg[1]/CK
+ (Sync)reg_ini_1_reg[0]/CK
+ (Sync)reg_ini_0_reg[31]/CK
+ (Sync)reg_ini_0_reg[30]/CK
+ (Sync)reg_ini_0_reg[29]/CK
+ (Sync)reg_ini_0_reg[28]/CK
+ (Sync)reg_ini_0_reg[27]/CK
+ (Sync)reg_ini_0_reg[26]/CK
+ (Sync)reg_ini_0_reg[25]/CK
+ (Sync)reg_ini_0_reg[24]/CK
+ (Sync)reg_ini_0_reg[23]/CK
+ (Sync)reg_ini_0_reg[22]/CK
+ (Sync)reg_ini_0_reg[21]/CK
+ (Sync)reg_ini_0_reg[20]/CK
+ (Sync)reg_ini_0_reg[19]/CK
+ (Sync)reg_ini_0_reg[18]/CK
+ (Sync)reg_ini_0_reg[17]/CK
+ (Sync)reg_ini_0_reg[16]/CK
+ (Sync)reg_ini_0_reg[15]/CK
+ (Sync)reg_ini_0_reg[14]/CK
+ (Sync)reg_ini_0_reg[13]/CK
+ (Sync)reg_ini_0_reg[12]/CK
+ (Sync)reg_ini_0_reg[11]/CK
+ (Sync)reg_ini_0_reg[10]/CK
+ (Sync)reg_ini_0_reg[9]/CK
+ (Sync)reg_ini_0_reg[8]/CK
+ (Sync)reg_ini_0_reg[7]/CK
+ (Sync)reg_ini_0_reg[6]/CK
+ (Sync)reg_ini_0_reg[5]/CK
+ (Sync)reg_ini_0_reg[4]/CK
+ (Sync)reg_ini_0_reg[3]/CK
+ (Sync)reg_ini_0_reg[2]/CK
+ (Sync)reg_ini_0_reg[1]/CK
+ (Sync)reg_ini_0_reg[0]/CK
+ (Sync)reg_mid_0_reg[63]/CK
+ (Sync)reg_mid_0_reg[62]/CK
+ (Sync)reg_mid_0_reg[61]/CK
+ (Sync)reg_mid_0_reg[60]/CK
+ (Sync)reg_mid_0_reg[59]/CK
+ (Sync)reg_mid_0_reg[58]/CK
+ (Sync)reg_mid_0_reg[57]/CK
+ (Sync)reg_mid_0_reg[56]/CK
+ (Sync)reg_mid_0_reg[55]/CK
+ (Sync)reg_mid_0_reg[54]/CK
+ (Sync)reg_mid_0_reg[53]/CK
+ (Sync)reg_mid_0_reg[52]/CK
+ (Sync)reg_mid_0_reg[51]/CK
+ (Sync)reg_mid_0_reg[50]/CK
+ (Sync)reg_mid_0_reg[49]/CK
+ (Sync)reg_mid_0_reg[48]/CK
+ (Sync)reg_mid_0_reg[47]/CK
+ (Sync)reg_mid_0_reg[46]/CK
+ (Sync)reg_mid_0_reg[45]/CK
+ (Sync)reg_mid_0_reg[44]/CK
+ (Sync)reg_mid_0_reg[43]/CK
+ (Sync)reg_mid_0_reg[42]/CK
+ (Sync)reg_mid_0_reg[41]/CK
+ (Sync)reg_mid_0_reg[40]/CK
+ (Sync)reg_mid_0_reg[39]/CK
+ (Sync)reg_mid_0_reg[38]/CK
+ (Sync)reg_mid_0_reg[37]/CK
+ (Sync)reg_mid_0_reg[36]/CK
+ (Sync)reg_mid_0_reg[35]/CK
+ (Sync)reg_mid_0_reg[34]/CK
+ (Sync)reg_mid_0_reg[33]/CK
+ (Sync)reg_mid_0_reg[32]/CK
+ (Sync)reg_mid_0_reg[31]/CK
+ (Sync)reg_mid_0_reg[30]/CK
+ (Sync)reg_mid_0_reg[29]/CK
+ (Sync)reg_mid_0_reg[28]/CK
+ (Sync)reg_mid_0_reg[27]/CK
+ (Sync)reg_mid_0_reg[26]/CK
+ (Sync)reg_mid_0_reg[25]/CK
+ (Sync)reg_mid_0_reg[24]/CK
+ (Sync)reg_mid_0_reg[23]/CK
+ (Sync)reg_mid_0_reg[22]/CK
+ (Sync)reg_mid_0_reg[21]/CK
+ (Sync)reg_mid_0_reg[20]/CK
+ (Sync)reg_mid_0_reg[19]/CK
+ (Sync)reg_mid_0_reg[18]/CK
+ (Sync)reg_mid_0_reg[17]/CK
+ (Sync)reg_mid_0_reg[16]/CK
+ (Sync)reg_mid_0_reg[15]/CK
+ (Sync)reg_mid_0_reg[14]/CK
+ (Sync)reg_mid_0_reg[13]/CK
+ (Sync)reg_mid_0_reg[12]/CK
+ (Sync)reg_mid_0_reg[11]/CK
+ (Sync)reg_mid_0_reg[10]/CK
+ (Sync)reg_mid_0_reg[9]/CK
+ (Sync)reg_mid_0_reg[8]/CK
+ (Sync)reg_mid_0_reg[7]/CK
+ (Sync)reg_mid_0_reg[6]/CK
+ (Sync)reg_mid_0_reg[5]/CK
+ (Sync)reg_mid_0_reg[4]/CK
+ (Sync)reg_mid_0_reg[3]/CK
+ (Sync)reg_mid_0_reg[2]/CK
+ (Sync)reg_mid_1_reg[63]/CK
+ (Sync)reg_mid_1_reg[62]/CK
+ (Sync)reg_mid_1_reg[61]/CK
+ (Sync)reg_mid_1_reg[60]/CK
+ (Sync)reg_mid_1_reg[59]/CK
+ (Sync)reg_mid_1_reg[58]/CK
+ (Sync)reg_mid_1_reg[57]/CK
+ (Sync)reg_mid_1_reg[56]/CK
+ (Sync)reg_mid_1_reg[55]/CK
+ (Sync)reg_mid_1_reg[54]/CK
+ (Sync)reg_mid_1_reg[53]/CK
+ (Sync)reg_mid_1_reg[52]/CK
+ (Sync)reg_mid_1_reg[51]/CK
+ (Sync)reg_mid_1_reg[50]/CK
+ (Sync)reg_mid_1_reg[49]/CK
+ (Sync)reg_mid_1_reg[48]/CK
+ (Sync)reg_mid_1_reg[47]/CK
+ (Sync)reg_mid_1_reg[46]/CK
+ (Sync)reg_mid_1_reg[45]/CK
+ (Sync)reg_mid_1_reg[44]/CK
+ (Sync)reg_mid_1_reg[43]/CK
+ (Sync)reg_mid_1_reg[42]/CK
+ (Sync)reg_mid_1_reg[41]/CK
+ (Sync)reg_mid_1_reg[40]/CK
+ (Sync)reg_mid_1_reg[39]/CK
+ (Sync)reg_mid_1_reg[38]/CK
+ (Sync)reg_mid_1_reg[37]/CK
+ (Sync)reg_mid_1_reg[36]/CK
+ (Sync)reg_mid_1_reg[35]/CK
+ (Sync)reg_mid_1_reg[34]/CK
+ (Sync)reg_mid_1_reg[33]/CK
+ (Sync)reg_mid_1_reg[32]/CK
+ (Sync)reg_mid_1_reg[31]/CK
+ (Sync)reg_mid_1_reg[30]/CK
+ (Sync)reg_mid_1_reg[29]/CK
+ (Sync)reg_mid_1_reg[28]/CK
+ (Sync)reg_mid_1_reg[27]/CK
+ (Sync)reg_mid_1_reg[26]/CK
+ (Sync)reg_mid_1_reg[25]/CK
+ (Sync)reg_mid_1_reg[24]/CK
+ (Sync)reg_mid_1_reg[23]/CK
+ (Sync)reg_mid_1_reg[22]/CK
+ (Sync)reg_mid_1_reg[21]/CK
+ (Sync)reg_mid_1_reg[20]/CK
+ (Sync)reg_mid_1_reg[19]/CK
+ (Sync)reg_mid_1_reg[18]/CK
+ (Sync)reg_mid_1_reg[17]/CK
+ (Sync)reg_mid_1_reg[16]/CK
+ (Sync)reg_mid_1_reg[15]/CK
+ (Sync)reg_mid_1_reg[14]/CK
+ (Sync)reg_mid_1_reg[13]/CK
+ (Sync)reg_mid_1_reg[12]/CK
+ (Sync)reg_mid_1_reg[11]/CK
+ (Sync)reg_mid_1_reg[10]/CK
+ (Sync)reg_mid_1_reg[9]/CK
+ (Sync)reg_mid_1_reg[8]/CK
+ (Sync)reg_mid_1_reg[7]/CK
+ (Sync)reg_mid_1_reg[6]/CK
+ (Sync)reg_mid_1_reg[5]/CK
+ (Sync)reg_mid_1_reg[4]/CK
+ (Sync)reg_mid_1_reg[3]/CK
+ (Sync)reg_mid_1_reg[2]/CK
+ (Sync)reg_mid_1_reg[1]/CK
+ (Sync)reg_mid_1_reg[0]/CK
+ (Sync)reg_out_reg[126]/CK
+ (Sync)reg_out_reg[124]/CK
+ (Sync)reg_out_reg[122]/CK
+ (Sync)reg_out_reg[120]/CK
+ (Sync)reg_out_reg[118]/CK
+ (Sync)reg_out_reg[116]/CK
+ (Sync)reg_out_reg[115]/CK
+ (Sync)reg_out_reg[114]/CK
+ (Sync)reg_out_reg[113]/CK
+ (Sync)reg_out_reg[112]/CK
+ (Sync)reg_out_reg[111]/CK
+ (Sync)reg_out_reg[110]/CK
+ (Sync)reg_out_reg[109]/CK
+ (Sync)reg_out_reg[108]/CK
+ (Sync)reg_out_reg[107]/CK
+ (Sync)reg_out_reg[106]/CK
+ (Sync)reg_out_reg[105]/CK
+ (Sync)reg_out_reg[104]/CK
+ (Sync)reg_out_reg[103]/CK
+ (Sync)reg_out_reg[102]/CK
+ (Sync)reg_out_reg[101]/CK
+ (Sync)reg_out_reg[100]/CK
+ (Sync)reg_out_reg[99]/CK
+ (Sync)reg_out_reg[98]/CK
+ (Sync)reg_out_reg[97]/CK
+ (Sync)reg_out_reg[96]/CK
+ (Sync)reg_out_reg[95]/CK
+ (Sync)reg_out_reg[94]/CK
+ (Sync)reg_out_reg[93]/CK
+ (Sync)reg_out_reg[92]/CK
+ (Sync)reg_out_reg[91]/CK
+ (Sync)reg_out_reg[90]/CK
+ (Sync)reg_out_reg[89]/CK
+ (Sync)reg_out_reg[88]/CK
+ (Sync)reg_out_reg[87]/CK
+ (Sync)reg_out_reg[86]/CK
+ (Sync)reg_out_reg[85]/CK
+ (Sync)reg_out_reg[84]/CK
+ (Sync)reg_out_reg[83]/CK
+ (Sync)reg_out_reg[82]/CK
+ (Sync)reg_out_reg[81]/CK
+ (Sync)reg_out_reg[80]/CK
+ (Sync)reg_out_reg[79]/CK
+ (Sync)reg_out_reg[78]/CK
+ (Sync)reg_out_reg[77]/CK
+ (Sync)reg_out_reg[76]/CK
+ (Sync)reg_out_reg[75]/CK
+ (Sync)reg_out_reg[74]/CK
+ (Sync)reg_out_reg[73]/CK
+ (Sync)reg_out_reg[72]/CK
+ (Sync)reg_out_reg[71]/CK
+ (Sync)reg_out_reg[70]/CK
+ (Sync)reg_out_reg[69]/CK
+ (Sync)reg_out_reg[68]/CK
+ (Sync)reg_out_reg[67]/CK
+ (Sync)reg_out_reg[66]/CK
+ (Sync)reg_out_reg[65]/CK
+ (Sync)reg_out_reg[64]/CK
+ (Sync)reg_out_reg[63]/CK
+ (Sync)reg_out_reg[62]/CK
+ (Sync)reg_out_reg[61]/CK
+ (Sync)reg_out_reg[60]/CK
+ (Sync)reg_out_reg[59]/CK
+ (Sync)reg_out_reg[58]/CK
+ (Sync)reg_out_reg[57]/CK
+ (Sync)reg_out_reg[56]/CK
+ (Sync)reg_out_reg[55]/CK
+ (Sync)reg_out_reg[54]/CK
+ (Sync)reg_out_reg[53]/CK
+ (Sync)reg_out_reg[52]/CK
+ (Sync)reg_out_reg[51]/CK
+ (Sync)reg_out_reg[50]/CK
+ (Sync)reg_out_reg[49]/CK
+ (Sync)reg_out_reg[48]/CK
+ (Sync)reg_out_reg[47]/CK
+ (Sync)reg_out_reg[46]/CK
+ (Sync)reg_out_reg[45]/CK
+ (Sync)reg_out_reg[44]/CK
+ (Sync)reg_out_reg[43]/CK
+ (Sync)reg_out_reg[42]/CK
+ (Sync)reg_out_reg[41]/CK
+ (Sync)reg_out_reg[40]/CK
+ (Sync)reg_out_reg[39]/CK
+ (Sync)reg_out_reg[38]/CK
+ (Sync)reg_out_reg[37]/CK
+ (Sync)reg_out_reg[36]/CK
+ (Sync)reg_out_reg[35]/CK
+ (Sync)reg_out_reg[34]/CK
+ (Sync)reg_out_reg[33]/CK
+ (Sync)reg_out_reg[32]/CK
+ (Sync)reg_out_reg[31]/CK
+ (Sync)reg_out_reg[30]/CK
+ (Sync)reg_out_reg[29]/CK
+ (Sync)reg_out_reg[28]/CK
+ (Sync)reg_out_reg[27]/CK
+ (Sync)reg_out_reg[26]/CK
+ (Sync)reg_out_reg[25]/CK
+ (Sync)reg_out_reg[24]/CK
+ (Sync)reg_out_reg[23]/CK
+ (Sync)reg_out_reg[22]/CK
+ (Sync)reg_out_reg[21]/CK
+ (Sync)reg_out_reg[20]/CK
+ (Sync)reg_out_reg[19]/CK
+ (Sync)reg_out_reg[18]/CK
+ (Sync)reg_out_reg[17]/CK
+ (Sync)reg_out_reg[16]/CK
+ (Sync)reg_out_reg[15]/CK
+ (Sync)reg_out_reg[14]/CK
+ (Sync)reg_out_reg[13]/CK
+ (Sync)reg_out_reg[12]/CK
+ (Sync)reg_out_reg[11]/CK
+ (Sync)reg_out_reg[10]/CK
+ (Sync)reg_out_reg[9]/CK
+ (Sync)reg_out_reg[8]/CK
+ (Sync)reg_out_reg[7]/CK
+ (Sync)reg_out_reg[6]/CK
+ (Sync)reg_out_reg[5]/CK
+ (Sync)reg_out_reg[4]/CK
+ (Sync)reg_out_reg[3]/CK
+ (Sync)reg_out_reg[2]/CK
+ (Sync)reg_out_reg[1]/CK
+ (Sync)reg_out_reg[0]/CK
+ (Sync)reg_mid_0_reg[0]/CK
+ (Sync)reg_mid_0_reg[1]/CK
+ (Sync)reg_out_reg[127]/CK
+ (Sync)reg_out_reg[125]/CK
+ (Sync)reg_out_reg[123]/CK
+ (Sync)reg_out_reg[121]/CK
+ (Sync)reg_out_reg[119]/CK
+ (Sync)reg_out_reg[117]/CK

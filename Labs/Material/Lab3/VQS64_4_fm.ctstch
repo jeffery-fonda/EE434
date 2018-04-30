@@ -1,0 +1,36 @@
+#
+# Dae Hyun Kim
+#
+
+# MacroModel pin <pin> <maxRiseDelay> <minRiseDelay> <maxFallDelay> <minFallDelay> <inputCap>
+
+#MacroModel pin C2_StageReg2_3/Rd1_out_reg[1]/CK -500ps -500ps -500ps -500ps 0.003pf
+
+
+#
+#Clock Section
+#
+AutoCTSRootPin		mCLK
+Period			1000ps
+MaxDelay		1000ps
+MinDelay		0ps
+MaxSkew			20ps
+SinkMaxTran		50ps
+BufMaxTran		100ps
+RootInputTran		100ps
+Obstruction		NO
+DetailReport		YES
+PadBufAfterGate		NO
+LevelBalanced		NO
+RouteClkNet		YES
+PostOpt			YES
+OptAddBuffer		YES
+OptAddBufferLimit	80
+NoGating		NO
+SetIoPinAsSync		YES
+Buffer			CLKBUF_X1 CLKBUF_X2 CLKBUF_X3
+END
+
+
+
+

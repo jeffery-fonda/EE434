@@ -1,0 +1,12 @@
+catch { setAnalysisMode -analysisType single }
+catch { setAnalysisMode -checkType setup }
+catch { setAnalysisMode -clkSrcPath true }
+catch { setAnalysisMode -clockPropagation sdcControl }
+catch { setAnalysisMode -virtualIPO false }
+catch { setTrialRouteMode -fixAirConnect true }
+setExtractRCMode  -engine preRoute
+catch { setDelayCalMode -engine aae }
+catch { setDelayCalMode -ignoreNetLoad false }
+catch { setCTSMode -moveGateLimit 25 }
+catch { setPlaceMode -fp false }
+catch { setIlmMode -highFanoutPort true -loopBack false -keepFlatten false -mergeModel true }

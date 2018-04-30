@@ -1,0 +1,42 @@
+* The first line is always a comment line.
+* Case-insensitive
+
+* Control
+.option post INGOLD=2
+
+* Include the following file to load transistor models.
+.include './45nm_PTM_HP_v2.1.pm'
+* Include the subckt definition.
+.include './subckt-nor2.sp'
+
+* Parameters
+* Supply voltage
+.param Vsup = 1.0V
+
+* Subckt instantiation (see the port mapping. The order should match the order of the
+* port definition of the subckt.
+X1 nA nB nX nVdd 0 myNor2
+X2 nC nD nY nVdd 0 myNor2
+X3 nX nY nOut nVdd 0 myNor2
+
+*** Output load capacitance. Capacitors should begin with "c".
+* Format: <capacitor name> <node 1> <node 2> <value>
+cout nOut 0 10f
+
+* Power supply
+* Format: <power supply name> <node 1> <node 2> <value>
+*** Voltage source names should begin with "v".
+VVdd nVdd 0 Vsup
+
+* Input signal (independent voltage source)
+* Format: <signal name> <node 1> <node 2> <signal>
+* For the signal, we use a piecewise linear (PWL) source. Format: ... PWL time1 value1 time2 value2 ...
+VA nA 0 PWL 0p 0 18n 0 18.1n Vsup
+VB nB 0 PWL 0p 0 10n 0 10.1n Vsup 18n Vsup 18.1n 0 26n 0 26.1n Vsup
+VC nC 0 PWL 0p 0 6n 0 6.1n Vsup 10n Vsup 10.1n 0 14n 0 14.1n Vsup 18n Vsup 18.1n 0 22n 0 22.1n Vsup 26n Vsup 26.1n 0 30n 0 30.1n Vsup
+VD nD 0 PWL 0p 0 4n 0 4.1 Vsup 6n Vsup 6.1n 0 8n 0 8.1n Vsup 10n Vsup 10.1n 0 12n 0 12.1n Vsup 14n Vsup 14.1n 0 16n 0 16.1n Vsup 18n Vsup 18.1n 0 20n 0 20.1n Vsup 22n Vsup 22.1n 0 24n 0 24.1n Vsup 26n Vsup 26.1n 0 28n 0 28.1 Vsup 30n Vsup 30.1n 0 32n 0 32.1 Vsup
+
+* Transient analysis. Simulate up to 34ns.
+.tran 1p 34n
+
+.end

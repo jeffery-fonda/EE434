@@ -1,0 +1,68 @@
+****** HSPICE -- K-2015.06-SP1 linux64 (Aug 23 2015) ******
+ Input File: lab2_netlist.sp
+ lic:
+ lic: FLEXlm: v11.2.1
+ lic: USER:   jfonda1              HOSTNAME: ssh7.eecs.wsu.edu
+ lic: HOSTID: 0050569737bb         PID:      13472
+ lic: Using FLEXlm license file:
+ lic: 7326@lic1.eecs.wsu.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 14-mar-2020/2017.12
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 7326@lic1.eecs.wsu.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  1.60E-01
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/ad
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/ad
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/behave
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/bjt
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/burr_brn
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/comlinear
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/dio
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/fet
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/lin_tech
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/pci
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/signet
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/ti
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/tline
+       option search = /net/ic/tools/synopsys/releases/hspice/K-2015.06
+                         -SP1/hspice/parts/xilinx
+       option runlvl
+       option post
+       option ingold =     2.00
+ init: end read circuit files,  cpu clock=  1.70E-01 peak memory=       191 mb
+ init: begin check errors,  cpu clock=  1.70E-01
+ init: end check errors,  cpu clock=  1.80E-01 peak memory=       192 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.80E-01
+       establish matrix -- done,  cpu clock=  1.90E-01 peak memory=       192 mb
+       re-order matrix -- done,  cpu clock=  1.90E-01 peak memory=       192 mb
+ init: end setup matrix,  cpu clock=  1.90E-01 peak memory=       192 mb
+ dcop: begin dcop,  cpu clock=  1.90E-01
+ dcop: end dcop,  cpu clock=  2.80E-01 peak memory=       192 mb  tot_iter=     256
+ output: lab2_netlist.tr0
+ sweep: tran tran0    begin, stop_t=  3.00E-09 #sweeps=3001 cpu clock=  2.80E-01
+ tran: time= 3.0277E-10 tot_iter=     178 conv_iter=      63 cpu clock= 3.30E-01
+ tran: time= 6.1720E-10 tot_iter=     290 conv_iter=     102 cpu clock= 3.70E-01
+ tran: time= 1.0000E-09 tot_iter=     306 conv_iter=     109 cpu clock= 3.70E-01
+ tran: time= 1.2500E-09 tot_iter=     380 conv_iter=     137 cpu clock= 3.90E-01
+ tran: time= 1.5000E-09 tot_iter=     467 conv_iter=     169 cpu clock= 4.10E-01
+ tran: time= 1.8244E-09 tot_iter=     556 conv_iter=     201 cpu clock= 4.40E-01
+ tran: time= 2.1307E-09 tot_iter=     632 conv_iter=     229 cpu clock= 4.60E-01
+ tran: time= 2.4008E-09 tot_iter=     718 conv_iter=     260 cpu clock= 4.90E-01
+ tran: time= 2.7086E-09 tot_iter=     806 conv_iter=     292 cpu clock= 5.10E-01
+ tran: time= 3.0000E-09 tot_iter=     812 conv_iter=     295 cpu clock= 5.10E-01
+ sweep: tran tran0    end,  cpu clock=  5.10E-01 peak memory=       192 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,24 @@
+catch { setAnalysisMode -analysisType single }
+catch { setAnalysisMode -checkType setup }
+catch { setAnalysisMode -clkSrcPath true }
+catch { setAnalysisMode -clockPropagation forcedIdeal }
+catch { setAnalysisMode -virtualIPO false }
+catch { setTrialRouteMode -fixAirConnect true }
+catch { setTrialRouteMode -handlePreroute true }
+catch { setTrialRouteMode -keepMarkedOptRoutes true }
+catch { setOptMode -drcMargin 0 }
+catch { setOptMode -effort high }
+catch { setOptMode -fixDrc true }
+catch { setOptMode -setupTargetSlack 0 }
+setExtractRCMode  -engine preRoute
+catch { setDelayCalMode -enable_high_fanout true }
+catch { setDelayCalMode -engine aae }
+catch { setDelayCalMode -ignoreNetLoad false }
+catch { setDelayCalMode -SIAware false }
+catch { setCTSMode -moveGateLimit 25 }
+catch { setPlaceMode -CPR true }
+catch { setPlaceMode -fp false }
+catch { setPlaceMode -getLegalMultiThread false }
+catch { setPlaceMode -hardFence true }
+catch { setPlaceMode -rplaceIncrNPRollBackLevel 3 }
+catch { setIlmMode -highFanoutPort true -loopBack false -keepFlatten false -mergeModel true }

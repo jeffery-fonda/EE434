@@ -1,0 +1,72 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { metal1 metal10 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -stripeSCpinTarget { firstAfterRowEnd } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer metal1 -allowLayerChange 1 -targetViaTopLayer metal10 -crossoverViaTopLayer metal10 -targetViaBottomLayer metal1 -nets { VDD VSS }
+# 4 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { metal1 metal10 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -stripeSCpinTarget { firstAfterRowEnd } -checkAlignedSecondaryPin 1 -blockPin useLef -allowJogging 1 -crossoverViaBottomLayer metal1 -allowLayerChange 1 -targetViaTopLayer metal10 -crossoverViaTopLayer metal10 -targetViaBottomLayer metal1 -nets { VDD VSS }
+# 3 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+
+# PPCMD 3 
+# addRing -spacing_bottom 1 -width_left 1 -width_bottom 1 -width_top 1 -spacing_top 1 -layer_bottom metal1 -stacked_via_top_layer metal10 -width_right 1 -around core -jog_distance 0.095 -offset_bottom 0.095 -layer_top metal1 -threshold 0.095 -offset_left 0.095 -spacing_right 1 -spacing_left 1 -offset_right 0.095 -offset_top 0.095 -layer_right metal2 -nets {VDD VSS} -stacked_via_bottom_layer metal1 -layer_left metal2
+# 2 
+# 32 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 3 
+
+# PPCMD 4 
+# addRing -spacing_bottom 1 -width_left 1 -width_bottom 1 -width_top 1 -spacing_top 1 -layer_bottom metal1 -stacked_via_top_layer metal10 -width_right 1 -around core -jog_distance 0.095 -offset_bottom 0.095 -layer_top metal1 -threshold 0.095 -offset_left 0.095 -spacing_right 1 -spacing_left 1 -offset_right 0.095 -offset_top 0.095 -layer_right metal2 -nets {VDD VSS} -stacked_via_bottom_layer metal1 -layer_left metal2
+# 1 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# VSS 2000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 276270 4890 276270 522070 
+# END_RING_PT_INFO_LIST 
+# VSS 2000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 4890 263480 547650 263480 
+# END_RING_PT_INFO_LIST 
+# VDD 2000 1 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 276270 8890 276270 518070 
+# END_RING_PT_INFO_LIST 
+# VDD 2000 2 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 8890 263480 543650 263480 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 4 
+

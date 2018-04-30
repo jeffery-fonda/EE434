@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "K-2015.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "16:04:12 01/25/2018 "
+* "netlist" "inv.sp "
+* "runtitle" "* the first line is always a comment line."
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ nin = 0.000e+00       
++ nout = 1.000e-00       
++ nvdd = 1.000e+00       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,50 @@
+### CustomExplorer log file, revision F-2011.09-SP1 (build 1103) ###
+### created at 11:00:41 on Mon Feb  5 2018 (Linux AMD64) ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 20 43
+wv_move_window CustomWaveView 1 8
+wv_resize_window CustomWaveView 1437 801
+sx_open_sim_file_read {transmission_gate.tr0}
+wv_expand_hierview_item {FILE0:D0:transmission_gate.tr0}
+wv_select_hierview_item {FILE0:D0:transmission_gate.tr0} {toplevel}
+wv_select_sigview_item v(n1)
+wv_dclick_sigview_item v(n1)
+wv_select_sigview_item v(n2)
+wv_dclick_sigview_item v(n2)
+wv_select_sigview_item v(na)
+wv_dclick_sigview_item v(na)
+wv_waveview_context_menu WV1.PANEL3:1.LEGEND
+wv_select_context_menu_item {Clear WaveView}
+wv_select_sigview_item v(na)
+wv_dclick_sigview_item v(na)
+wv_select_sigview_item v(n1)
+wv_dclick_sigview_item v(n1)
+wv_select_sigview_item v(n2)
+wv_dclick_sigview_item v(n2)
+wv_select_toolbar_item {Measurement Tool}
+wv_move_dialog MeasurementTool 341 30
+wv_select_dialog MeasurementTool
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 253 210
+wv_move_wv_item WV1.MEAS1 294 341
+wv_select_toolbar_item {Measurement Tool}
+wv_move_dialog MeasurementTool 341 30
+wv_select_dialog MeasurementTool
+wv_press_button MeasurementTool.Ok
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 262 218
+wv_move_wv_item WV1.MEAS2 355 526
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 349 362
+wv_move_wv_item WV1.MEAS1 355 357
+wv_close_window CustomWaveView
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 628 30
+# wv_press_button Confirmation.Ok
